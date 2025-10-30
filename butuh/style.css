@@ -1,0 +1,70 @@
+/* Mengatur ulang semua margin & padding bawaan browser */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif; /* Ganti font-nya jadi yang standar */
+}
+
+/* ======== STYLE NAVBAR ======== */
+.navbar {
+    display: flex; /* Bikin logo & menu jadi sejajar */
+    justify-content: space-between; /* Logo di kiri, menu di kanan */
+    align-items: center; /* Posisinya di tengah (vertikal) */
+    background-color: #333; /* Warna background navbar (hitam gelap) */
+    padding: 1rem 2rem; /* Jarak di dalam navbar (atas/bawah 1rem, kiri/kanan 2rem) */
+}
+
+/* Style buat logo/judul */
+.navbar .logo {
+    font-size: 1.5rem; /* Ukuran font */
+    font-weight: bold;
+    color: white; 
+    text-decoration: none; /* Hilangin garis bawah link */
+}
+
+.navbar .nav-links {
+    list-style: none; 
+    display: flex; 
+}
+
+.navbar .nav-links li {
+    margin-left: 20px; 
+}
+
+.navbar .nav-links a {
+    color: white; 
+    text-decoration: none; 
+    font-size: 1rem;
+}
+
+.navbar .nav-links a:hover {
+    color: #ddd; 
+}
+
+.konten-utama {
+    padding: 2rem;
+    text-align: center; 
+}
+
+.konten-utama h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.konten-utama p {
+    font-size: 1.1rem;
+    margin-bottom: 2rem;
+}
+
+.tombol {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px; 
+}
+
+.tombol:hover {
+    background-color: #555;
+}
